@@ -15,8 +15,8 @@ There are two ways you can switch the separator:
 ## How it works
 
 <h3>Old way:</h3>
-<img src="https://raw.githubusercontent.com/FutureGlobeOfficial/SepaSwitch/master/oldway.gif" style="width: 75%;"/>
+<img src="https://raw.githubusercontent.com/FutureGlobeOfficial/SepaSwitch/master/oldway.gif" style="width: 65%;"/>
 
 <h3>New way using <b style="color: dodgerblue">Sepa Switch</b>:</h3>
-<img src="https://raw.githubusercontent.com/FutureGlobeOfficial/SepaSwitch/master/newway.gif" style="width: 75%;"/>
+<img src="https://raw.githubusercontent.com/FutureGlobeOfficial/SepaSwitch/master/newway.gif" style="width: 65%;"/>
 
