@@ -1,0 +1,65 @@
+{
+    "name": "sepaswitch",
+    "displayName": "Sepa Switch",
+    "description": "Quickly change the separator used for displaying .csv files",
+    "version": "1.0.2",
+    "repository": 
+    {
+        "type": "git",
+        "url": "https://github.com/Futureglobe/SepaSwitch"
+    },
+    "homepage": "http://futureglobe.de/",
+    "icon": "images/appIcon.png",
+    "publisher": "Futureglobe",
+    "keywords": [
+        "sepa",
+        "switch",
+        "csv",
+        "excel",
+        "separator"
+    ],
+    "engines": 
+    {
+        "vscode": "^1.10.0"
+    },
+    "categories": 
+    [
+        "Other"
+    ],
+    "activationEvents": 
+    [
+        "*"
+    ],
+    "main": "./extension",
+    "contributes": 
+    {
+        "commands":
+        [
+            {
+                "command": "extension.switchSeperator",
+                "title": "Change Separator"
+            }
+        ],
+        "keybindings": 
+        [
+            {
+                "command": "extension.switchSeperator",
+                "key": "ctrl+alt+l",
+                "mac": "cmd+alt+l"
+            }
+        ]
+    },
+    "scripts": 
+    {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": 
+    {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
